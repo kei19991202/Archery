@@ -21,16 +21,6 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="編集…"
-        android:id="@+id/textView2"
-        android:textSize="30dp"
-        android:layout_below="@+id/textView"
-        android:layout_alignStart="@+id/textView"
-        android:layout_marginTop="5dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="試合まであと?日"
         android:id="@+id/textView3"
         android:textSize="40dp"
@@ -80,5 +70,22 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="33dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text|textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/textView"
+        android:id="@+id/editText"
+        android:layout_alignRight="@+id/button4"
+        android:layout_alignEnd="@+id/button4"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:singleLine="true"
+        android:hint="編集..."
+        android:textSize="24sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:onClick="edit" />
 
 </RelativeLayout>
