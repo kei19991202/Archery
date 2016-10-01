@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TodaysMenu"></activity>
+        <activity android:name=".TodaysMenu" />
+        <activity android:name=".TheTotalNumberOfMorphisms"></activity>
     </application>
 
 </manifest>
