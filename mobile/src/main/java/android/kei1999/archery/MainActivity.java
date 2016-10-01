@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     public void edit(View v){
         destination = textEdit.getText().toString();
         editer.putString("編集",destination);
-
+        editer.commit();
     }
 
 }
