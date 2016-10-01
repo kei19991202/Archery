@@ -10,4 +10,6 @@ public class TheTotalNumberOfMorphisms extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_the_total_number_of_morphisms);
     }
+
+
 }

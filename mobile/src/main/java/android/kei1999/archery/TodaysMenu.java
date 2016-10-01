@@ -13,4 +13,6 @@ public class TodaysMenu extends AppCompatActivity {
         setContentView(R.layout.activity_todays_menu);
     }
 
+
+    //これ追加
 }
