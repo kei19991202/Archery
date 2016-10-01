@@ -18,7 +18,5 @@ public class MainActivity extends AppCompatActivity {
         Intent intent1 = new Intent(this, TodaysMenu.class);
         startActivity(intent1);
 
-        //よろしく！こちらこそ!
-
     }
 }
