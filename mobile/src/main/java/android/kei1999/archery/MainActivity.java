@@ -1,6 +1,7 @@
 package android.kei1999.archery;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,12 +9,25 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
+    String destination;
+
+    EditText textEdit;
+    SharedPreferences pref;
+    SharedPreferences.Editor editer;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        EditText editText =(EditText)findViewById(R.id.editText);
+        pref = getSharedPreferences("dictionary", MODE_PRIVATE);
+        editer = pref.edit();
+
+
+
+        textEdit =(EditText)findViewById(R.id.editText);
+        textEdit.setText("");
+
 
     }
 
@@ -25,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void edit(View v){
+        destination = textEdit.getText().toString();
+        editer.putString("編集",destination);
 
     }
 
