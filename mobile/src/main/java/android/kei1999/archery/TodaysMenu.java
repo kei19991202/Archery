@@ -13,6 +13,11 @@ public class TodaysMenu extends AppCompatActivity {
         setContentView(R.layout.activity_todays_menu);
     }
 
+    public void morphisms(View v){
 
-    //これ追加
+        Intent intent2 = new Intent(this, TheTotalNumberOfMorphisms.class);
+        startActivity(intent2);
+
+    }
+
 }
