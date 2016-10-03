@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         pref = getSharedPreferences("dictionary", MODE_PRIVATE);
         editer = pref.edit();
 
-
+        destination = pref.getString("編集","");
 
         textEdit =(EditText)findViewById(R.id.editText);
         textEdit.setText("");
