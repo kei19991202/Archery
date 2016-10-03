@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         textEdit =(EditText)findViewById(R.id.editText);
-        textEdit.setText("");
+        textEdit.setText("" + destination);
 
 
     }
