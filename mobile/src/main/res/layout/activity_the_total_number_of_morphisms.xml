@@ -10,4 +10,52 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="android.kei1999.archery.TheTotalNumberOfMorphisms">
 
+    <TextView
+        android:text="~本"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="93dp"
+        android:id="@+id/textview2"
+        android:textSize="40dp" />
+
+    <Button
+        android:text="+1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/pl1" />
+
+    <Button
+        android:text="-1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mi1"
+        android:layout_alignBaseline="@+id/pl1"
+        android:layout_alignBottom="@+id/pl1"
+        android:layout_toLeftOf="@+id/pl1"
+        android:layout_toStartOf="@+id/pl1" />
+
+    <Button
+        android:text="+10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pl10"
+        android:layout_alignBaseline="@+id/pl1"
+        android:layout_alignBottom="@+id/pl1"
+        android:layout_toRightOf="@+id/pl1"
+        android:layout_toEndOf="@+id/pl1" />
+
+    <Button
+        android:text="決定"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/decide1"
+        android:layout_below="@+id/pl1"
+        android:layout_alignLeft="@+id/pl1"
+        android:layout_alignStart="@+id/pl1"
+        android:layout_marginTop="48dp" />
+
 </RelativeLayout>
