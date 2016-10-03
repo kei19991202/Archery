@@ -45,5 +45,13 @@ public class MainActivity extends AppCompatActivity {
         editer.commit();
     }
 
+//    public void onDestroy(){
+//
+//        destination = textEdit.getText().toString();
+//        editer.putString("編集",destination);
+//        editer.commit();
+//
+//    }
+
 }
 
