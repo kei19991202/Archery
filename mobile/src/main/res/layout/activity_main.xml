@@ -84,6 +84,7 @@
         android:layout_alignStart="@+id/button4"
         android:singleLine="true"
         android:hint="編集..."
+        android:cursorVisible="false"
         android:textSize="24sp"
         android:gravity="center_vertical|center_horizontal"
         android:onClick="edit" />
