@@ -26,7 +26,8 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/pl1" />
+        android:id="@+id/pl1"
+        android:onClick="pl1" />
 
     <Button
         android:text="-1"
@@ -36,7 +37,8 @@
         android:layout_alignBaseline="@+id/pl1"
         android:layout_alignBottom="@+id/pl1"
         android:layout_toLeftOf="@+id/pl1"
-        android:layout_toStartOf="@+id/pl1" />
+        android:layout_toStartOf="@+id/pl1"
+        android:onClick="mi1" />
 
     <Button
         android:text="+10"
@@ -46,7 +48,8 @@
         android:layout_alignBaseline="@+id/pl1"
         android:layout_alignBottom="@+id/pl1"
         android:layout_toRightOf="@+id/pl1"
-        android:layout_toEndOf="@+id/pl1" />
+        android:layout_toEndOf="@+id/pl1"
+        android:onClick="pl10" />
 
     <Button
         android:text="決定"
@@ -56,6 +59,7 @@
         android:layout_below="@+id/pl1"
         android:layout_alignLeft="@+id/pl1"
         android:layout_alignStart="@+id/pl1"
-        android:layout_marginTop="48dp" />
+        android:layout_marginTop="48dp"
+        android:onClick="decide" />
 
 </RelativeLayout>
