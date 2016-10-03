@@ -27,7 +27,8 @@
         android:textSize="30dp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:elevation="0dp" />
+        android:elevation="0dp"
+        android:onClick="morphisms (TodaysMenu)" />
 
     <Button
         android:layout_width="wrap_content"
