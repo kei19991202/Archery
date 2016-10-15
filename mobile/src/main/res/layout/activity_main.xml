@@ -64,12 +64,12 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="各種設定"
         android:id="@+id/button4"
         android:textSize="30dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="33dp" />
+        android:layout_marginBottom="33dp"
+        android:text="チューニング,サイト" />
 
     <EditText
         android:layout_width="wrap_content"

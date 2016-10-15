@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".TodaysMenu" />
-        <activity android:name=".TheTotalNumberOfMorphisms"></activity>
+        <activity android:name=".TheTotalNumberOfMorphisms" />
+        <activity android:name=".tuning"></activity>
     </application>
 
 </manifest>
