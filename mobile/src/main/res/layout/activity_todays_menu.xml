@@ -60,4 +60,26 @@
         android:layout_above="@+id/button5"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="43dp" />
+
+    <Button
+        android:text="ホームに戻る"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button9"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/button10"
+        android:layout_toStartOf="@+id/button10"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp"
+        android:onClick="backHome" />
+
+    <Button
+        android:text="1つ戻る"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button10"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignEnd="@+id/textView4"
+        android:onClick="oneBack" />
 </RelativeLayout>
