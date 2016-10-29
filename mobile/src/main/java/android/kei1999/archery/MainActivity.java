@@ -45,6 +45,13 @@ public class MainActivity extends AppCompatActivity {
         editer.commit();
     }
 
+    public void tuning(View v){
+
+        Intent intent3 = new Intent(this, TheTotalNumberOfMorphisms.class);
+        startActivity(intent3);
+
+    }
+
     public void onDestroy(){
 
         destination = textEdit.getText().toString();

@@ -56,7 +56,7 @@
         android:text="自己ベスト"
         android:id="@+id/button3"
         android:textSize="30dp"
-        android:layout_above="@+id/button4"
+        android:layout_above="@+id/tuning"
         android:layout_alignLeft="@+id/button2"
         android:layout_alignStart="@+id/button2"
         android:layout_marginBottom="15dp" />
@@ -64,12 +64,13 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button4"
+        android:id="@+id/tuning"
         android:textSize="30dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="33dp"
-        android:text="チューニング,サイト" />
+        android:text="チューニング,サイト"
+        android:onClick="tuning" />
 
     <EditText
         android:layout_width="wrap_content"

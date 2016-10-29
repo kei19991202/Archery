@@ -16,6 +16,21 @@
         android:inputType="textPersonName"
         android:text="Name"
         android:ems="10"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/editText2"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView6"
+        android:layout_toEndOf="@+id/textView6"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
         android:id="@+id/editText3"
         android:layout_below="@+id/editText2"
         android:layout_alignLeft="@+id/editText2"
@@ -87,19 +102,14 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-    <EditText
+    <Button
+        android:text="変更を保存"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Name"
-        android:ems="10"
-        android:layout_marginLeft="20dp"
-        android:layout_marginStart="20dp"
-        android:id="@+id/editText2"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/textView6"
-        android:layout_toEndOf="@+id/textView6"
-        android:fontFamily="sans-serif"
-        android:textSize="18sp" />
+        android:layout_below="@+id/editText5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:id="@+id/changeComit1"
+        android:onClick="changeComit1" />
 
 </RelativeLayout>
