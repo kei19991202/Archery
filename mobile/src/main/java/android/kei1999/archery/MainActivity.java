@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent1 = new Intent(this, TodaysMenu.class);
         startActivity(intent1);
+        //TODO:Intent1
 
     }
 
@@ -47,18 +48,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void tuning(View v){
 
-        Intent intent3 = new Intent(this, TheTotalNumberOfMorphisms.class);
-        startActivity(intent3);
+        Intent intent4 = new Intent(this, tuning.class);
+        startActivity(intent4);
+        //TODO:Intent4
 
     }
 
-    public void onDestroy(){
 
-        destination = textEdit.getText().toString();
-        editer.putString("編集",destination);
-        editer.commit();
-
-    }
 
 }
 

@@ -14,7 +14,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Name"
         android:ems="10"
         android:layout_marginLeft="20dp"
         android:layout_marginStart="20dp"
@@ -23,44 +22,45 @@
         android:layout_toRightOf="@+id/textView6"
         android:layout_toEndOf="@+id/textView6"
         android:fontFamily="sans-serif"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:hint="サイトを入力..." />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Name"
         android:ems="10"
         android:id="@+id/editText3"
         android:layout_below="@+id/editText2"
         android:layout_alignLeft="@+id/editText2"
         android:layout_alignStart="@+id/editText2"
-        android:layout_marginTop="12dp" />
+        android:layout_marginTop="12dp"
+        android:hint="サイトを入力..." />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Name"
         android:ems="10"
         android:id="@+id/editText4"
         android:layout_marginTop="12dp"
         android:layout_below="@+id/editText3"
         android:layout_alignLeft="@+id/editText3"
         android:layout_alignStart="@+id/editText3"
-        android:textAllCaps="false" />
+        android:textAllCaps="false"
+        android:hint="サイトを入力..." />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Name"
         android:ems="10"
         android:id="@+id/editText5"
         android:layout_marginTop="12dp"
         android:layout_alignLeft="@+id/editText4"
         android:layout_below="@+id/editText4"
-        android:layout_alignStart="@+id/editText4" />
+        android:layout_alignStart="@+id/editText4"
+        android:hint="サイトを入力..." />
 
     <TextView
         android:text="70m"

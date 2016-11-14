@@ -20,7 +20,7 @@ public class TodaysMenu extends AppCompatActivity {
 
     public void morphisms(View v){
 
-        //TODO:intentを学ぶ！
+        //TODO:Intent2
         Intent intent2 = new Intent(this, TheTotalNumberOfMorphisms.class);
         intent2.putExtra("num1",number1);
         startActivity(intent2);
