@@ -16,6 +16,7 @@ public class TodaysMenu extends AppCompatActivity {
 
         Intent intent3 = getIntent();
         number1 = intent3.getIntExtra("num1",0);
+
     }
 
     public void morphisms(View v){
@@ -25,6 +26,21 @@ public class TodaysMenu extends AppCompatActivity {
         intent2.putExtra("num1",number1);
         startActivity(intent2);
 
+    }
+
+    public void point(View v){
+
+        //TODO:Intent7
+        Intent intent7 = new Intent(this, PointActivity.class);
+        startActivity(intent7);
+
+    }
+
+    public void backHome(View v){
+
+        //TODO:Intent6
+        Intent intent6 = new Intent(this, MainActivity.class);
+        startActivity(intent6);
     }
 
 }

@@ -13,11 +13,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="点取り"
-        android:id="@+id/button5"
+        android:id="@+id/point"
         android:layout_marginBottom="15dp"
         android:textSize="30dp"
         android:layout_above="@+id/morphisms"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="point" />
 
     <Button
         android:layout_width="wrap_content"
@@ -57,21 +58,9 @@
         android:text="今日の日付"
         android:id="@+id/textView4"
         android:textSize="40dp"
-        android:layout_above="@+id/button5"
+        android:layout_above="@+id/point"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="43dp" />
-
-    <Button
-        android:text="ホームに戻る"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button9"
-        android:layout_alignParentBottom="true"
-        android:layout_toLeftOf="@+id/button10"
-        android:layout_toStartOf="@+id/button10"
-        android:layout_marginRight="13dp"
-        android:layout_marginEnd="13dp"
-        android:onClick="backHome" />
 
     <Button
         android:text="1つ戻る"
@@ -82,4 +71,16 @@
         android:layout_alignRight="@+id/textView4"
         android:layout_alignEnd="@+id/textView4"
         android:onClick="oneBack" />
+
+    <Button
+        android:text="ホームに戻る"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/backHome"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp"
+        android:onClick="backHome"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/button10"
+        android:layout_toStartOf="@+id/button10" />
 </RelativeLayout>
