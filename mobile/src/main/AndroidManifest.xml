@@ -17,8 +17,8 @@
         </activity>
         <activity android:name=".TodaysMenu" />
         <activity android:name=".TheTotalNumberOfMorphisms" />
-        <activity android:name=".tuning"></activity>
-        <activity android:name=".PointActivity"></activity>
+        <activity android:name=".tuning" />
+        <activity android:name=".PointActivity" />
     </application>
 
 </manifest>
