@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.kei1999.archery.PointActivity">
 
 
     <TableLayout
@@ -15,7 +18,7 @@
         <TableRow
         android:id="@+id/tableRow1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_marginBottom="5dp" >
 
             <LinearLayout
@@ -31,107 +34,114 @@
                 android:gravity="center"
                 android:paddingBottom="2dp"
                 android:paddingLeft="10dp"
-                android:paddingRight="10dp"
+                android:paddingRight="5dp"
                 android:paddingTop="2dp"
                 android:text="1"
 
-                />
+                android:textSize="20sp" />
             </LinearLayout>
 
             <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/a1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:paddingBottom="2dp"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
             android:paddingTop="2dp"
-            android:text="aaa"
-            />
+            android:text="a1"
+                android:textSize="20sp"
+                android:onClick="a1" />
 
             <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/b1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="3dp"
 
             android:gravity="center"
             android:paddingBottom="2dp"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
             android:paddingTop="2dp"
-            android:text="bbb"
-            />
+            android:text="b1"
+                android:textSize="20sp"
+                android:onClick="b1" />
 
             <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/c1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="3dp"
 
             android:gravity="center"
             android:paddingBottom="2dp"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
             android:paddingTop="2dp"
-            android:text="ccc"
-            />
+            android:text="c1"
+                android:textSize="20sp"
+                android:onClick="c1"/>
 
             <TextView
-            android:id="@+id/textView10"
+            android:id="@+id/d1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="3dp"
 
             android:gravity="center"
             android:paddingBottom="2dp"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
             android:paddingTop="2dp"
-            android:text="ddd"
-            />
+            android:text="d1"
+                android:textSize="20sp"
+                android:onClick="d1"/>
 
             <TextView
-            android:id="@+id/textView11"
+            android:id="@+id/e1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="3dp"
 
             android:gravity="center"
             android:paddingBottom="2dp"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
             android:paddingTop="2dp"
-            android:text="eee"
-            />
+            android:text="e1"
+                android:textSize="20sp"
+                android:onClick="e1"/>
 
             <TextView
-            android:id="@+id/textView12"
+            android:id="@+id/f1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="3dp"
 
             android:gravity="center"
             android:paddingBottom="2dp"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
             android:paddingTop="2dp"
-            android:text="fff"
-            />
+                android:text="f1"
+                android:textSize="20sp"
+                android:onClick="f1"/>
 
             <TextView
-            android:id="@+id/textView13"
+            android:id="@+id/t1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="3dp"
 
             android:gravity="center"
             android:paddingBottom="2dp"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
             android:paddingTop="2dp"
             android:text="T1"
+                android:textSize="20sp"
             />
         </TableRow>
 
@@ -158,11 +168,11 @@
                     android:paddingTop="2dp"
                     android:text="2"
 
-                    />
+                    android:textSize="20sp" />
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textView15"
+                android:id="@+id/a2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -170,25 +180,12 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
-                android:text="aaa"
-                />
+                android:text="a2"
+                android:textSize="20sp"
+                android:onClick="a2"/>
 
             <TextView
-                android:id="@+id/textView16"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="3dp"
-
-                android:gravity="center"
-                android:paddingBottom="2dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="2dp"
-                android:text="bbb"
-                />
-
-            <TextView
-                android:id="@+id/textView17"
+                android:id="@+id/b2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -198,11 +195,12 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
-                android:text="ccc"
-                />
+                android:text="b2"
+                android:textSize="20sp"
+                android:onClick="b2" />
 
             <TextView
-                android:id="@+id/textView18"
+                android:id="@+id/c2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -212,11 +210,12 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
-                android:text="ddd"
-                />
+                android:text="c2"
+                android:textSize="20sp"
+                android:onClick="c2"/>
 
             <TextView
-                android:id="@+id/textView19"
+                android:id="@+id/d2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -226,11 +225,12 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
-                android:text="eee"
-                />
+                android:text="d2"
+                android:textSize="20sp"
+                android:onClick="d2"/>
 
             <TextView
-                android:id="@+id/textView20"
+                android:id="@+id/e2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -240,11 +240,27 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
-                android:text="fff"
-                />
+                android:text="e2"
+                android:textSize="20sp"
+                android:onClick="e2"/>
 
             <TextView
-                android:id="@+id/textView21"
+                android:id="@+id/f2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+
+                android:gravity="center"
+                android:paddingBottom="2dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:text="f2"
+                android:textSize="20sp"
+                android:onClick="f2"/>
+
+            <TextView
+                android:id="@+id/t2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -255,13 +271,13 @@
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
                 android:text="T2"
-                />
+                android:textSize="20sp" />
         </TableRow>
 
         <TableRow
             android:id="@+id/tableRow3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginBottom="5dp" >
 
             <LinearLayout
@@ -281,11 +297,11 @@
                     android:paddingTop="2dp"
                     android:text="3"
 
-                    />
+                    android:textSize="20sp" />
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textView23"
+                android:id="@+id/a3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -293,25 +309,12 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
-                android:text="aaa"
-                />
+                android:text="a3"
+                android:textSize="20sp"
+                android:onClick="a3" />
 
             <TextView
-                android:id="@+id/textView24"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="3dp"
-
-                android:gravity="center"
-                android:paddingBottom="2dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="2dp"
-                android:text="bbb"
-                />
-
-            <TextView
-                android:id="@+id/textView25"
+                android:id="@+id/b3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -321,11 +324,12 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
-                android:text="ccc"
-                />
+                android:text="b3"
+                android:textSize="20sp"
+                android:onClick="b3" />
 
             <TextView
-                android:id="@+id/textView26"
+                android:id="@+id/c3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -335,11 +339,12 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
-                android:text="ddd"
-                />
+                android:text="c3"
+                android:textSize="20sp"
+                android:onClick="c3"/>
 
             <TextView
-                android:id="@+id/textView27"
+                android:id="@+id/d3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -349,11 +354,12 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
-                android:text="eee"
-                />
+                android:text="d3"
+                android:textSize="20sp"
+                android:onClick="d3"/>
 
             <TextView
-                android:id="@+id/textView28"
+                android:id="@+id/e3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -363,11 +369,27 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
-                android:text="fff"
-                />
+                android:text="e3"
+                android:textSize="20sp"
+                android:onClick="e3"/>
 
             <TextView
-                android:id="@+id/textView29"
+                android:id="@+id/f3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+
+                android:gravity="center"
+                android:paddingBottom="2dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:text="f3"
+                android:textSize="20sp"
+                android:onClick="f3"/>
+
+            <TextView
+                android:id="@+id/t3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -378,7 +400,7 @@
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
                 android:text="T3"
-                />
+                android:textSize="20sp" />
         </TableRow>
 
         <TableRow
@@ -404,11 +426,11 @@
                     android:paddingTop="2dp"
                     android:text="4"
 
-                    />
+                    android:textSize="20sp" />
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textView31"
+                android:id="@+id/a4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -416,25 +438,12 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
-                android:text="aaa"
-                />
+                android:text="a4"
+                android:textSize="20sp"
+                android:onClick="a4"/>
 
             <TextView
-                android:id="@+id/textView32"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="3dp"
-
-                android:gravity="center"
-                android:paddingBottom="2dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="2dp"
-                android:text="bbb"
-                />
-
-            <TextView
-                android:id="@+id/textView33"
+                android:id="@+id/b4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -444,11 +453,12 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
-                android:text="ccc"
-                />
+                android:text="b4"
+                android:textSize="20sp"
+                android:onClick="b4"/>
 
             <TextView
-                android:id="@+id/textView34"
+                android:id="@+id/c4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -458,11 +468,12 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
-                android:text="ddd"
-                />
+                android:text="c4"
+                android:textSize="20sp"
+                android:onClick="c4"/>
 
             <TextView
-                android:id="@+id/textView35"
+                android:id="@+id/d4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -472,11 +483,12 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
-                android:text="eee"
-                />
+                android:text="d4"
+                android:textSize="20sp"
+                android:onClick="d4"/>
 
             <TextView
-                android:id="@+id/textView36"
+                android:id="@+id/e4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -486,11 +498,27 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
-                android:text="fff"
-                />
+                android:text="e4"
+                android:textSize="20sp"
+                android:onClick="e4"/>
 
             <TextView
-                android:id="@+id/textView37"
+                android:id="@+id/f4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+
+                android:gravity="center"
+                android:paddingBottom="2dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:text="f4"
+                android:textSize="20sp"
+                android:onClick="f4"/>
+
+            <TextView
+                android:id="@+id/t4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -501,7 +529,7 @@
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
                 android:text="T4"
-                />
+                android:textSize="20sp" />
         </TableRow>
 
         <TableRow
@@ -525,13 +553,13 @@
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:paddingTop="2dp"
-                    android:text="4"
+                    android:text="5"
 
-                    />
+                    android:textSize="20sp" />
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textView39"
+                android:id="@+id/a5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -539,25 +567,12 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
-                android:text="aaa"
-                />
+                android:text="a5"
+                android:textSize="20sp"
+                android:onClick="a5"/>
 
             <TextView
-                android:id="@+id/textView40"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="3dp"
-
-                android:gravity="center"
-                android:paddingBottom="2dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="2dp"
-                android:text="bbb"
-                />
-
-            <TextView
-                android:id="@+id/textView41"
+                android:id="@+id/b5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -567,11 +582,12 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
-                android:text="ccc"
-                />
+                android:text="b5"
+                android:textSize="20sp"
+                android:onClick="b5"/>
 
             <TextView
-                android:id="@+id/textView42"
+                android:id="@+id/c5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -581,11 +597,12 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
-                android:text="ddd"
-                />
+                android:text="c5"
+                android:textSize="20sp"
+                android:onClick="c5" />
 
             <TextView
-                android:id="@+id/textView43"
+                android:id="@+id/d5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -595,11 +612,12 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
-                android:text="eee"
-                />
+                android:text="d5"
+                android:textSize="20sp"
+                android:onClick="d5"/>
 
             <TextView
-                android:id="@+id/textView44"
+                android:id="@+id/e5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -609,11 +627,27 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
-                android:text="fff"
-                />
+                android:text="e5"
+                android:textSize="20sp"
+                android:onClick="e5"/>
 
             <TextView
-                android:id="@+id/textView45"
+                android:id="@+id/f5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+
+                android:gravity="center"
+                android:paddingBottom="2dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:text="f5"
+                android:textSize="20sp"
+                android:onClick="f5"/>
+
+            <TextView
+                android:id="@+id/t5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -624,7 +658,7 @@
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
                 android:text="T5"
-                />
+                android:textSize="20sp" />
         </TableRow>
 
         <TableRow
@@ -649,11 +683,12 @@
                     android:paddingTop="2dp"
                     android:text="6"
 
-                    android:id="@+id/textView46" />
+                    android:id="@+id/textView46"
+                    android:textSize="20sp" />
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textView47"
+                android:id="@+id/a6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -661,25 +696,12 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
-                android:text="aaa"
-                />
+                android:text="a6"
+                android:textSize="20sp"
+                android:onClick="a6"/>
 
             <TextView
-                android:id="@+id/textView48"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="3dp"
-
-                android:gravity="center"
-                android:paddingBottom="2dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="2dp"
-                android:text="bbb"
-                />
-
-            <TextView
-                android:id="@+id/textView49"
+                android:id="@+id/b6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -689,11 +711,12 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
-                android:text="ccc"
-                />
+                android:text="b6"
+                android:textSize="20sp"
+                android:onClick="b6"/>
 
             <TextView
-                android:id="@+id/textView50"
+                android:id="@+id/c6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -703,11 +726,12 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
-                android:text="ddd"
-                />
+                android:text="c6"
+                android:textSize="20sp"
+                android:onClick="c6"/>
 
             <TextView
-                android:id="@+id/textView51"
+                android:id="@+id/d6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -717,11 +741,12 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
-                android:text="eee"
-                />
+                android:text="d6"
+                android:textSize="20sp"
+                android:onClick="d6"/>
 
             <TextView
-                android:id="@+id/textView52"
+                android:id="@+id/e6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -731,11 +756,27 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
-                android:text="fff"
-                />
+                android:text="e6"
+                android:textSize="20sp"
+                android:onClick="e6"/>
 
             <TextView
-                android:id="@+id/textView53"
+                android:id="@+id/f6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+
+                android:gravity="center"
+                android:paddingBottom="2dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:text="f6"
+                android:textSize="20sp"
+                android:onClick="f6"/>
+
+            <TextView
+                android:id="@+id/t6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -746,10 +787,18 @@
                 android:paddingRight="10dp"
                 android:paddingTop="2dp"
                 android:text="T6"
-                />
+                android:textSize="20sp" />
+
         </TableRow>
 
     </TableLayout>
+
+    <TextView
+        android:text="TotalPoint:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/allTotal"
+        android:textSize="30sp" />
 
     <TableLayout
         android:layout_width="match_parent"
@@ -763,28 +812,32 @@
             android:id="@+id/TableRow8" >
 
             <Button
-                android:text="Button"
+                android:text="X"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button12" />
+                android:id="@+id/btX"
+                android:onClick="btX" />
 
             <Button
-                android:text="Button"
+                android:text="10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button11" />
+                android:id="@+id/bt10"
+                android:onClick="bt10" />
 
             <Button
-                android:text="Button"
+                android:text="9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button4" />
+                android:id="@+id/bt9"
+                android:onClick="bt9" />
 
             <Button
-                android:text="Button"
+                android:text="8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button9" />
+                android:id="@+id/bt8"
+                android:onClick="bt8" />
         </TableRow>
 
         <TableRow
@@ -793,28 +846,32 @@
             android:id="@+id/TableRow9" >
 
             <Button
-                android:text="Button"
+                android:text="7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button17" />
+                android:id="@+id/bt7"
+                android:onClick="bt7" />
 
             <Button
-                android:text="Button"
+                android:text="6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button16" />
+                android:id="@+id/bt6"
+                android:onClick="bt6" />
 
             <Button
-                android:text="Button"
+                android:text="5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button14" />
+                android:id="@+id/bt5"
+                android:onClick="t5" />
 
             <Button
-                android:text="Button"
+                android:text="4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button13" />
+                android:id="@+id/bt4"
+                android:onClick="bt4" />
         </TableRow>
 
         <TableRow
@@ -823,28 +880,33 @@
             android:id="@+id/TableRow10" >
 
             <Button
-                android:text="Button"
+                android:text="3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button20" />
+                android:id="@+id/bt3"
+                android:onClick="bt3" />
 
             <Button
-                android:text="Button"
+                android:text="2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button19" />
+                android:id="@+id/bt2"
+                android:onClick="bt2" />
 
             <Button
-                android:text="Button"
+                android:text="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button18" />
+                android:id="@+id/bt1"
+                android:onClick="bt1" />
 
             <Button
-                android:text="Button"
+                android:text="M"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button15" />
+                android:id="@+id/btM"
+                android:onClick="btM" />
+
         </TableRow>
 
         <TableRow
@@ -876,5 +938,6 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/button21" />
         </TableRow>
+
     </TableLayout>
 </LinearLayout>
